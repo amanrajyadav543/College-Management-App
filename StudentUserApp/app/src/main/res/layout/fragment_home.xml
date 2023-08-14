@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/bold">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Images"
+                android:fillViewport="true"
+                android:scrollbars="horizontal"
+                android:minHeight="300dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:src="@drawable/mainimg" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:src="@drawable/clg" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:src="@drawable/buddha" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:src="@drawable/hostel" />
+
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+                android:text="HEADING"
+                android:textColor="@color/textcolor" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_size"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+
+                android:text="@string/contecnt"
+                android:textColor="@color/textcolor" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_size"
+                android:background="@color/textcolor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="36dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="36dp"
+                        android:fontFamily="@font/bold"
+                       android:layout_gravity="center"
+                        android:text="DEPARTMENT"
+                        android:textColor="#fff"
+                        android:textSize="26dp" />
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/text_size">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey1"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_size"
+                                android:fontFamily="@font/bold"
+                                android:layout_gravity="center"
+                                android:background="#fff"
+                                android:paddingBottom="5dp"
+                                android:text="Civil Engineering"
+                                android:textColor="@color/textcolor" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_size"
+                                android:fontFamily="@font/bold"
+                                android:layout_gravity="center"
+                                android:background="#fff"
+                                android:paddingBottom="5dp"
+                                android:text="Mechanical Engineering"
+                                android:textColor="@color/textcolor" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_size"
+                                android:fontFamily="@font/bold"
+                                android:layout_gravity="center"
+                                android:background="#fff"
+                                android:paddingBottom="5dp"
+                                android:text="Electrical Engineering"
+                                android:textColor="@color/textcolor" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_size"
+                                android:fontFamily="@font/bold"
+                                android:layout_gravity="center"
+                                android:background="#fff"
+                                android:paddingBottom="5dp"
+                                android:text="Polytechnic"
+                                android:textColor="@color/textcolor" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_size"
+                                android:fontFamily="@font/bold"
+                                android:layout_gravity="center"
+                                android:background="#fff"
+                                android:paddingBottom="5dp"
+                                android:text="Hotel Management"
+                                android:textColor="@color/textcolor" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_size"
+                                android:fontFamily="@font/bold"
+                                android:layout_gravity="center"
+                                android:background="#fff"
+                                android:paddingBottom="5dp"
+                                android:text="BPharma/DPharma"
+                                android:textColor="@color/textcolor" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_size"
+                                android:fontFamily="@font/bold"
+                                android:layout_gravity="center"
+                                android:background="#fff"
+                                android:paddingBottom="5dp"
+                                android:text="ITI"
+                                android:textColor="@color/textcolor" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/grey1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_size"
+                                android:fontFamily="@font/bold"
+                                android:layout_gravity="center"
+                                android:background="#fff"
+                                android:paddingBottom="5dp"
+                                android:text="BA/BSc"
+                                android:textColor="@color/textcolor" />
+
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="@font/bold"
+                    android:gravity="center"
+                    android:text="Contect Details"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/textcolor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_size"
+                    android:fontFamily="@font/bold"
+              android:layout_gravity="center"
+
+                    android:text="@string/address"
+                    android:textColor="@color/textcolor" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_size"
+                    android:fontFamily="@font/bold"
+                    android:layout_gravity="center"
+
+                    android:text="@string/contect"
+                    android:textColor="@color/textcolor" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/map"
+                    android:id="@+id/map"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/text_size"
+                android:background="#fff"
+                android:fontFamily="@font/bold"
+                android:paddingBottom="5dp"
+                android:text="Computer Science"
+                android:textColor="@color/textcolor" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

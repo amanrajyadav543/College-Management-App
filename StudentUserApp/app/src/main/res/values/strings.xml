@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">StudentUserApp</string>
+    <string name="bold"
+
+        tools:ignore="ReferenceType">@font/bold</string>
+    <string name="regular"
+
+        tools:ignore="ReferenceType">@font/regular</string>
+    <string name="light"
+
+        tools:ignore="ReferenceType">@font/light</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">start</string>
+    <string name="close">Close</string>
+    <string name="address">                      Buddha Institute of Technology, GIDA, Gorakhpur
+                      बुद्धा इंस्टिट्यूट ऑफ़ टेक्नोलॉजी, गीडा, गोरखपुर
+                      Approved by AICTE, New Delhi &amp; Affiliated to                                          Dr. A.P.J. Abdul Kalam Technical University, Lucknow, Uttar Pradesh</string>
+
+    <string name="contect">M.Tech | B.Tech | Diploma  |  Call For Admission Enquiry - 9554559900 | 9839621881 | 9554322226</string>
+    <string name="contecnt">cgmklsajgilejiotekl ajgieajguioejhrkgjehguengjheiuthejkafng uerhtoiq teurh t
+    rt erut erg egeit ert 8e8t erht dfjgjeigjeiogjeioagjiodagioadjgkhadgdaf
+        gdahdagjsfhf
+
+
+
+
+    er teirut etqetiu itje0toj rjejr uwierijrfkljd aigaskfjksjadjfiwqrwqitio fksdmvmdnajkvsjfwr wer
+    w ei
+
+
+   dg</string>
+
+
+</resources>
