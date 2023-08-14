@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+              android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/man"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin Clg App"
+                android:layout_marginLeft="16dp"
+                android:textSize="18dp"
+                android:textColor="@color/textcolor"/>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:id="@+id/deleteNotice"
+                android:layout_marginLeft="100dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                         />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deletenoticetitle"
+            android:text="this is the testing text"
+            android:textSize="17sp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/deletenoticeimage"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
